@@ -1,0 +1,146 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Class_and_object", // — Название конфигурации (отображается в выпадающем списке отладки).
+      "type": "lldb", // — Указывает тип отладчика (LLDB для macOS/Linux).
+      "request": "launch", // — Запуск программы с нуля (альтернатива: "attach" для подключения к работающему процессу).
+      "args": [], // — Аргументы командной строки для программы (пустой список = без аргументов).
+      "program": "${workspaceFolder}/build/Debug/bin/ExampleClass", // — Абсолютный путь к исполняемому файлу:
+      "cwd": "${workspaceFolder}", // — Рабочая директория при запуске (корень проекта).
+      "preLaunchTask": "Build", // Выполнение задачи из task.json перед отладкой
+      "console": "integratedTerminal", // — Запуск программы во встроенном терминале VS Code (альтернативы: internalConsole, externalTerminal).
+      "internalConsoleOptions": "neverOpen", // — Блокирует автоматическое открытие отдельной вкладки отладчика.
+      "sourceMap": { // — Сопоставление путей для отладчика( Решает проблему, когда отладчик ищет исходники по неверному пути)
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Debug Inheritance",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/ExampleInheritance",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build", 
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Debug Encapsulation",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/ExampleEncapsulation",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Debug Polymorphism",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/ExamplePolymorphism",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Debug Interfaces",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/ExampleInterfaces",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Debug Composition",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/ExampleComposition",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Debug Abstraction",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/ExampleAbstraction",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Debug Dependency Injection",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/ExampleDep.Inj",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Debug Single_Responsibility_Principe",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Single_Responsibility_Principle",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Debug Open_Closed_Principle",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Open_Closed_Principle",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+  ],
+  "compounds": []
+}

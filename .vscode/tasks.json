@@ -1,0 +1,29 @@
+{
+     "tasks": [
+                {
+            "label": "Configure CMake",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-B", "${workspaceFolder}/build",
+                "-DCMAKE_BUILD_TYPE=Debug",
+                "-S", "${workspaceFolder}"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "Настраивает проект CMake в папке build"
+        },
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build", "${workspaceFolder}/build",
+                "--config", "Debug"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "dependsOn": ["Configure CMake"]
+        }
+     ]
+}
