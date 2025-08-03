@@ -1,5 +1,5 @@
 add_subdirectory(1.S-Single_Responsibility_Principle)
 add_subdirectory(2.O-Open_Closed_Principle)
-#add_subdirectory(3.L-Liskov's_Substitution_Principle)
-#add_subdirectory(4.I-Interface_Segregation_Principle)
-#add_subdirectory(5.D-Dependency_Invercion_Principle)
+add_subdirectory(3.L-Liskov_Substitution_Principle)
+add_subdirectory(4.I-Interface_Segregation_Principle)
+add_subdirectory(5.D-Dependency_Invercion_Principle)

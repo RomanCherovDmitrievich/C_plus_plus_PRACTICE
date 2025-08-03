@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <string>
 
 // Динамический полиморфизм (Runtime Polymorphism)
@@ -194,4 +194,85 @@ int main()
     INFO(basketball);
 
     return 0;
+}
+    */
+#include <iostream>
+
+class I1
+{
+public:
+  I1()
+  {
+    foo1;
+  }
+  virtual ~I1(){}
+
+public:
+  virtual void foo1() const = 0;
+  virtual void foo2() const = 0;
+};
+
+class A: public I1
+{
+public:
+  A()
+  {
+    foo1();
+  }
+  virtual ~A()
+  {
+    foo2();
+  }
+
+public:
+  void foo1() const
+  {
+    std::cout << "A1::foo1" << std::endl;
+  }
+  void foo2() const
+  {
+    std::cout << "A1::foo2" << std::endl;
+  }
+};
+
+class B: public A
+{
+public:
+  B()
+    : A()
+  {
+    foo1();
+  }
+  virtual ~B()
+  {
+    foo2();
+  }
+
+public:
+  void foo1() const
+  {
+    std::cout << "B1::foo1" << std::endl;
+  }
+  void foo2() const
+  {
+    std::cout << "B1::foo2" << std::endl;
+  }
+};
+
+void foo(const I1* i)
+{
+  i->foo1();
+  i->foo2();
+}
+
+int main()
+{
+  //I1* i = new A();
+  //foo(i);
+  //delete i; // 
+  I1* i = new B();
+  //foo(i);
+  delete i;
+
+  return 0;
 }

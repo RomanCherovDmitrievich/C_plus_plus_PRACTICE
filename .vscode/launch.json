@@ -141,6 +141,48 @@
         "/build": "${workspaceFolder}/build"
       }
     },
+    {
+      "name": "Debug Liskov_Substitution_Principle",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Liskov_Substitution_Principle",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Debug Interface_Segregation_Principle",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Interface_Segregation_Principle",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Debug Dependency_Invercion_Principle",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Dependency_Invercion_Principle",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
   ],
   "compounds": []
 }

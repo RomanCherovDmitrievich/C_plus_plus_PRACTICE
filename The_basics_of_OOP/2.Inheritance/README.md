@@ -17,12 +17,12 @@ __protected__ — это спецификатор доступа, который
 # Пример
 
 ```c++
-class Animal {          // Базовый класс
+class Animal {          // Базовый/родительский класс
 public:
     void eat() { cout << "Eating..." << endl; }
 };
 
-class Dog : public Animal { // Производный класс
+class Dog : public Animal { // Производный/дочерний класс
 public:
     void bark() { cout << "Woof!" << endl; }
 };
