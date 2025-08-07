@@ -1,0 +1,7 @@
+add_subdirectory(1.Adapter)
+#add_subdirectory(2.Bridge)
+#add_subdirectory(3.Composite)
+#add_subdirectory(4.Decorator)
+#add_subdirectory(5.Facade)
+#add_subdirectory(6.Flyweight)
+#add_subdirectory(7.Proxy)
