@@ -1,0 +1,5 @@
+add_subdirectory(1.Abstract_Factory)
+#add_subdirectory(2.Builder)
+#add_subdirectory(3.Factory_Method)
+#add_subdirectory(4.Prototype)
+#add_subdirectory(5.Singleton)

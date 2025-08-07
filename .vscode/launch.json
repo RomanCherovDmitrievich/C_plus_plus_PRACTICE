@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Debug Class_and_object", // — Название конфигурации (отображается в выпадающем списке отладки).
+      "name": "The_basics_of_OOP: Class_and_object", // — Название конфигурации (отображается в выпадающем списке отладки).
       "type": "lldb", // — Указывает тип отладчика (LLDB для macOS/Linux).
       "request": "launch", // — Запуск программы с нуля (альтернатива: "attach" для подключения к работающему процессу).
       "args": [], // — Аргументы командной строки для программы (пустой список = без аргументов).
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "Debug Inheritance",
+      "name": "The_basics_of_OOP: Inheritance",
       "type": "lldb",
       "request": "launch",
       "args": [],
@@ -30,7 +30,7 @@
       }
     },
     {
-      "name": "Debug Encapsulation",
+      "name": "The_basics_of_OOP: Encapsulation",
       "type": "lldb",
       "request": "launch",
       "args": [],
@@ -44,7 +44,7 @@
       }
     },
     {
-      "name": "Debug Polymorphism",
+      "name": "The_basics_of_OOP: Polymorphism",
       "type": "lldb",
       "request": "launch",
       "args": [],
@@ -58,7 +58,7 @@
       }
     },
     {
-      "name": "Debug Interfaces",
+      "name": "The_basics_of_OOP: Interfaces",
       "type": "lldb",
       "request": "launch",
       "args": [],
@@ -72,7 +72,7 @@
       }
     },
     {
-      "name": "Debug Composition",
+      "name": "The_basics_of_OOP: Composition",
       "type": "lldb",
       "request": "launch",
       "args": [],
@@ -86,7 +86,7 @@
       }
     },
     {
-      "name": "Debug Abstraction",
+      "name": "The_basics_of_OOP: Abstraction",
       "type": "lldb",
       "request": "launch",
       "args": [],
@@ -100,21 +100,7 @@
       }
     },
     {
-      "name": "Debug Dependency Injection",
-      "type": "lldb",
-      "request": "launch",
-      "args": [],
-      "program": "${workspaceFolder}/build/Debug/bin/ExampleDep.Inj",
-      "cwd": "${workspaceFolder}",
-      "preLaunchTask": "Build",
-      "console": "integratedTerminal",
-      "internalConsoleOptions": "neverOpen",
-      "sourceMap": {
-        "/build": "${workspaceFolder}/build"
-      }
-    },
-    {
-      "name": "Debug Single_Responsibility_Principe",
+      "name": "SOLID: Single_Responsibility_Principe",
       "type": "lldb",
       "request": "launch",
       "args": [],
@@ -128,7 +114,7 @@
       }
     },
     {
-      "name": "Debug Open_Closed_Principle",
+      "name": "SOLID: Open_Closed_Principle",
       "type": "lldb",
       "request": "launch",
       "args": [],
@@ -142,7 +128,7 @@
       }
     },
     {
-      "name": "Debug Liskov_Substitution_Principle",
+      "name": "SOLID: Liskov_Substitution_Principle",
       "type": "lldb",
       "request": "launch",
       "args": [],
@@ -156,7 +142,7 @@
       }
     },
     {
-      "name": "Debug Interface_Segregation_Principle",
+      "name": "SOLID: Interface_Segregation_Principle",
       "type": "lldb",
       "request": "launch",
       "args": [],
@@ -170,7 +156,7 @@
       }
     },
     {
-      "name": "Debug Dependency_Invercion_Principle",
+      "name": "SOLID: Dependency_Invercion_Principle",
       "type": "lldb",
       "request": "launch",
       "args": [],
@@ -183,6 +169,203 @@
         "/build": "${workspaceFolder}/build"
       }
     },
+    {
+      "name": "Patern/Behavioral: Chain_of_Responsibility",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Chain_of_Responsibility",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Patern/Behavioral: Command",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Command",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Patern/Behavioral: Iterator",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Iterator",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Patern/Behavioral: Mediator",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Mediator",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Patern/Behavioral: Memento",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Memento",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Patern/Behavioral: Observer",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Observer",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Patern/Behavioral: State",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/State",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Patern/Behavioral: Strategy",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Strategy",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Patern/Behavioral: Template_Methodr",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Template_Method",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Patern/Generative: Abstract_Factory",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Abstract_Factory",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Patern/Generative: Builder",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Builder",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Patern/Generative: Factory_Method",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Factory_Method",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Patern/Generative: Prototype",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Prototype",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Patern/Generative: Singleton",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Singleton",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+
   ],
   "compounds": []
 }
