@@ -88,7 +88,7 @@ set(GTEST_VERSION "main" CACHE STRING "Google test main version")
 enable_testing()
 
 #Подключённые директории
-add_subdirectory(Patern)
+add_subdirectory(Pattern)
 #add_subdirectory(SOLID)
 #add_subdirectory(The_basics_of_OOP)
  
