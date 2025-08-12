@@ -20,7 +20,7 @@ __Примечание:__
 
 ## Диаграмма паттерна Абстрактная фабрика
 <figure>
-    <img src ="/assets/images/UML_Diagram_Abstract_Factory.png" alt = "Abstract Factory">
+    <img src ="/assets/images/Diagram_Abstract_Factory.png" alt = "Abstract Factory">
 </figure>
 
 ## Пример

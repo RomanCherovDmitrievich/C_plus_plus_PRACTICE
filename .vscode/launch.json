@@ -352,11 +352,11 @@
       }
     },
     {
-      "name": "Patern/Generative: Singleton",
+      "name": "Patern/Structural: Adapter",
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "program": "${workspaceFolder}/build/Debug/bin/Singleton",
+      "program": "${workspaceFolder}/build/Debug/bin/Adapter",
       "cwd": "${workspaceFolder}",
       "preLaunchTask": "Build",
       "console": "integratedTerminal",
@@ -365,7 +365,90 @@
         "/build": "${workspaceFolder}/build"
       }
     },
-
+    {
+      "name": "Patern/Structural: Bridge",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Bridge",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Patern/Structural: Composite",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Composite",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Patern/Structural: Decorator",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Decorator",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Patern/Structural: Facade",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Facade",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Patern/Structural: Flyweight",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Flyweight",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
+    {
+      "name": "Patern/Structural: Proxy",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "program": "${workspaceFolder}/build/Debug/bin/Proxy",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "sourceMap": {
+        "/build": "${workspaceFolder}/build"
+      }
+    },
   ],
   "compounds": []
 }
