@@ -83,7 +83,6 @@ int main()
     IArsenal* arsenal = new Sword();
     std::cout << "1-е орудие: " <<  arsenal->create() << " стоит " << arsenal->coast() << std::endl; 
 
-
     arsenal = new Bow();
     std::cout << "2-е орудие: " <<  arsenal->create() << " стоит " << arsenal->coast() << std::endl; 
 

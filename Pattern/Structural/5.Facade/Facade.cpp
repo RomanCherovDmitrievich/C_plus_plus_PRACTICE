@@ -49,10 +49,10 @@ public:
 
 int main()
 {
-    Enduro* enduro;
+    Enduro* enduro = new Enduro();
     enduro->startEnduro();
 
-    std::cout << "Покатушки ..." << std::endl;
+    std::cout << std::endl << "Покатушки ..." << std::endl << std::endl;
 
     enduro->stopEnduro();
 
